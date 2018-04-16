@@ -11,11 +11,10 @@ import CoreLocation
 
 class PlaceController: UITableViewController {
     
-    let placeList = ["Paris", "Londre", "montcuq", "42"]
+    let placeList = ["Paris", "Londre", "42"]
     let placeCoord = [
         CLLocationCoordinate2D(latitude: 48.8032, longitude: 2.7892),
         CLLocationCoordinate2D(latitude: 51.4574, longitude: 0.3117),
-        CLLocationCoordinate2D(latitude: 44.2826, longitude: 1.6493),
         CLLocationCoordinate2D(latitude: 48.896847, longitude: 2.318345)
     ]
     let placeId = "blabla"
